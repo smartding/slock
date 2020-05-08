@@ -21,3 +21,6 @@ ResourcePref resources[] = {
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 0;
+
+/* time in seconds to cancel lock with mouse movement */
+static const int timetocancel = 4;
