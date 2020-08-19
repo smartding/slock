@@ -15,7 +15,7 @@ static const char *colorname[NUMCOLS] = {
 ResourcePref resources[] = {
 		{ "color0",       STRING,  &colorname[INIT] },
 		{ "color4",       STRING,  &colorname[INPUT] },
-		{ "color1",       STRING,  &colorname[FAILED] },
+		{ "color0",       STRING,  &colorname[FAILED] },
 		{ "color3",       STRING,  &colorname[CAPS] },
 };
 
